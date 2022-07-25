@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Poppins:ital,wght@1,500&display=swap");
+@font-face {
+  font-family: titleFont;
+  src: url("bakery.ttf");
+}
+
+:root {
+  --nav-bg-color: #042f4b;
+  --sel-text-color: #ed1250;
+  --main-color: #fff6da;
+  --menu-color: #caca41;
+  --title-font: titleFont, sans-serif;
+  --sub-font: "Edu NSW ACT Foundation", cursive;
+  --pizza-image: url("images/background.jpg") no-repeat center center fixed;
+  --default-shadow: 2px 2px 2px black;
+}
+
+.content {
+  background: var(--pizza-image);
+  display: flex;
+  height: 92vh;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  align-self: center;
+}
+ul button {
+  background-color: transparent;
+  border: none;
+  color: var(--main-color);
+  padding: 1rem;
+  font-family: var(--sub-font);
+  font-size: 28px;
+  text-shadow: var(--default-shadow);
+}
+ul button:hover {
+  color: var(--sel-text-color);
+}
+ul button:active {
+  color: var(--menu-color);
+}
+
+.navbar {
+  background-color: var(--nav-bg-color);
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  color: var(--sel-text-color);
+  font-size: 56px;
+  font-family: var(--title-font);
+  text-shadow: var(--default-shadow);
+}
+h3 {
+  font-family: var(--sub-font);
+  color: var(--main-color);
+  font-size: 32px;
+  text-shadow: var(--default-shadow);
+}
+
+.main {
+  display: none;
+  margin: auto;
+  text-align: center;
+}
+article {
+  background-color: rgba(0, 0, 0, 0.412);
+  color: var(--main-color);
+  display: flex;
+
+  width: 30vh;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  color: var(--sel-text-color);
+  padding-right: 10px;
+}
+
+img {
+  width: calc(5rem + 8vw);
+  height: calc(5rem + 8vw);
+}
+.menu {
+  margin: auto;
+  background-color: var(--menu-color);
+}
+.menu-container {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+}
+.menu-item {
+  display: flex;
+  gap: 1rem;
+}
+h5 {
+  color: var(--main-color);
+  text-shadow: var(--default-shadow);
+  text-align: end;
+}
