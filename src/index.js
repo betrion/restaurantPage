@@ -52,7 +52,7 @@ document.body.appendChild(createContent());
 
 const menuButtons = document.querySelectorAll("button");
 const contentSelector = document.querySelector(".content");
-// contentSelector.appendChild(homePage());
+contentSelector.appendChild(homePage());
 
 function createContent() {
   const content = document.createElement("div");
