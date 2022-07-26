@@ -8,7 +8,7 @@
   --nav-bg-color: #042f4b;
   --sel-text-color: #ed1250;
   --main-color: #fff6da;
-  --menu-color: #caca41;
+  --menu-color: #caaa41;
   --title-font: titleFont, sans-serif;
   --sub-font: "Edu NSW ACT Foundation", cursive;
   --pizza-image: url("images/background.jpg") no-repeat center center fixed;
@@ -62,7 +62,6 @@ h3 {
 }
 
 .main {
-  display: none;
   margin: auto;
   text-align: center;
 }
