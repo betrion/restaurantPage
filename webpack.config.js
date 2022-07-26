@@ -11,8 +11,8 @@ module.exports = {
     menu: "./src/menu.js",
   },
 
-  mode: "development",
-  devtool: "inline-source-map",
+  mode: "production",
+  // devtool: "inline-source-map",
   plugins: [
     new HtmlWebpackPlugin({
       title: "Pizza Hut",
